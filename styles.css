@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #0000FF;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #8B6F61;
+    border-radius: 5px;
+    color: #FFF8E1;
+}
+
+.order-button {
+    background-color: #D2691E;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.order-button a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.order-button:hover {
+    background-color: #A0522D;
+    color: #FFF8E1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .order-button {
+        align-self: flex-end;
+    }
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4A3F35;
+    color: #fff;
+}
+.photo-container {
+    text-align: center; /* Center the image within the container */
+    margin-top: 50px; /* Add some top margin for spacing */
+}
+
+.circular-photo {
+    width: 150px; /* Set the width of the image */
+    height: 150px; /* Set the height of the image */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    border: 5px solid #333; /* Optional: Add a border around the image */
+}
