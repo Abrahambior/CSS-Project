@@ -93,4 +93,96 @@ footer {
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensure the image covers the entire area */
     border: 5px solid #333; /* Optional: Add a border around the image */
+    color: #3f4b70;
+}
+.hero {
+    margin-top: 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #6a0fda;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 20px;
+}
+/* About Section */
+#about {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+#projects h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #824545;
+    border: 1px solid #1f0202;
+    padding: 20px;
+    width: 500px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #feffff;
+}
+
+.project-card p {
+    font-size: 16px;
+    color: hsl(0, 0%, 98%);
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+}
+
+#contact a {
+    color: #ffd700;
+    text-decoration: none;
 }
